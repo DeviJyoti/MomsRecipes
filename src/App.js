@@ -7,7 +7,7 @@ const App = () => {
   const APP_KEY = "377698886597dcf38e77c5c44c5d144c";
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chicken");
+  const [query, setQuery] = useState("fries");
 
   useEffect(() => {
     const getRecipes = async () => {
